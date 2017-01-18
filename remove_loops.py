@@ -51,7 +51,7 @@ if inputs.loop_length == None:
     inputs.loop_length = 8
 ################################################
 
-# Check if given pdb id file or complete path
+# Check if inputs.pdb is a file or path
 if len(inputs.pdb.split('/')) > 0:
     pdb_name = inputs.pdb.split('/')[-1]
     pdb_path = inputs.pdb[0:-len(pdb_name)] 
