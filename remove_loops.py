@@ -6,8 +6,6 @@ from sys import exit
 import numpy as np
 import argparse
 
-
-
 # DSSP codes
 # H = alpha-helix
 # B = residue in isolated beta-bridge
